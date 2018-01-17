@@ -6,7 +6,7 @@ This google apps script allows you to pull data from [coinmarketcap.com](https:/
 
 Would you like to get started immediately? Jump to the [Setup section](#setup).
 
-Enjoy my work? [Any tip is welcome](#tip)!
+**Enjoy my work? [Any tip is welcome](#tip)!**
 
 ## Motivation
 
