@@ -6,6 +6,8 @@ This google apps script allows you to pull data from [coinmarketcap.com](https:/
 
 Would you like to get started immediately? Jump to the [Setup section](#setup).
 
+Enjoy my work? [Any tip is welcome](#tip)!
+
 ## Motivation
 
 Dissattisfied with the current state of crypto currency portfolio tracking, I decided to go ahead and start working on an open-source alternative to the popular CRYPTOFINANCE spreadsheet add-on.
@@ -101,3 +103,23 @@ Parameters:
 ## Credits
 
 Credits goes to [coinmarketcap.com](https://coinmarketcap.com) for providing the api and aggregating all the crypto-finance data on the market. Without them, this script wouldn't exist, obiously ;)
+
+## <a name="tip"></a>Tip
+
+* Bitcoin / BTC: 
+
+**37S6auL2o7BaDd17LkKZ3SaYszS9woCQfy**
+
+![BTC QR-Tag](https://github.com/cryp-doh/cmc-google-apps/blob/master/assets/btc.png)
+
+* Ether / ETH: 
+
+**0x9618e70d4fe366941be4CB3dF1691f0DA9aaa621**
+
+![ETH QR-Tag](https://github.com/cryp-doh/cmc-google-apps/blob/master/assets/eth.png)
+
+* Monero / XMR:
+
+**4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7Z6qNc4kQgMzU8K8r**
+
+![XMR QR-Tag](https://github.com/cryp-doh/cmc-google-apps/blob/master/assets/xmr.png)
