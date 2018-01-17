@@ -267,7 +267,7 @@ function mapAttr(attr, currencies) {
   
   Logger.log(result);
   
-  return result;
+  return [result];
   
 }
 
