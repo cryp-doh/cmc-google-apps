@@ -1,5 +1,7 @@
 # CMC Spreadsheet Script
 
+![Get CMC Data List](https://github.com/cryp-doh/cmc-google-apps/blob/master/assets/getcmcdatalist.png)
+
 This google apps script allows you to pull data from [coinmarketcap.com](https://coinmarketcap.com) via their api (see https://coinmarketcap.com/api/ for further explanations) by providing custom functions to be directly used inside your google spreadsheets.
 
 Would you like to get started immediately? Jump to the [Setup section](#setup).
@@ -58,8 +60,6 @@ Since this is the alpha version and before being able to upload the add-on to th
 ## Usage
 
 Before being able to use the custom functions provided by the script (CMC, CMCLIST), you first must fill the internal document storage with currency-data from coinmarketcap. In order to do so, go to the spreadsheet in which you installed the script. Click on the menu _Add-ons_ -> _CMC_ -> _Get CMC Data_. This will create a new sheet called _CMC_ (check the bottom tabs), which will get filled with all currencies currently provided from coinmarketcap.
-
-![Get CMC Data List](https://github.com/cryp-doh/cmc-google-apps/blob/master/assets/getcmcdatalist.png)
 
 After this step, you're good to go and can now use the custom functions in your main sheet.
 
