@@ -123,3 +123,9 @@ Credits goes to [coinmarketcap.com](https://coinmarketcap.com) for providing the
 **4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CW7Z6qNc4kQgMzU8K8r**
 
 ![XMR QR-Tag](https://github.com/cryp-doh/cmc-google-apps/blob/master/assets/xmr.png)
+
+* Raiblocks / XRB:
+
+**xrb_1hcwrbc7j7mf78d8x6rdukngtpjso7s9t6oih7soqhycx6sm8tu4qmkp19tg**
+
+![XRB QR-Tag](https://github.com/cryp-doh/cmc-google-apps/blob/master/assets/xrb.png)
