@@ -70,7 +70,7 @@ function menuGetCmcData() {
       if (idx === 12 && a !== 1) {
         const d = new Date(col*1000);
         const dateString = 
-            d.getFullYear() + "-" + ("0" + (this.getMonth() + 1)).slice(-2) + "-" + ("0" + this.getDate()).slice(-2) + " " + 
+            d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2) + " " + 
             d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
         col = dateString;
       }
