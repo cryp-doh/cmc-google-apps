@@ -42,9 +42,7 @@ function menuGetCmcData() {
     return function() {
       
       const range = sheet.getRange(a, b);
-      const col = row[idx];
-      
-      range.setValue(col);
+      var col = row[idx];
       
       // make header bold
       if (a === 1) {
@@ -67,6 +65,17 @@ function menuGetCmcData() {
         }
         
       }
+      
+      // translate last updated timestamp to utc date
+      if (idx === 12 && a !== 1) {
+        const d = new Date(col*1000);
+        const dateString = 
+            d.getFullYear() + "-" + ("0" + (this.getMonth() + 1)).slice(-2) + "-" + ("0" + this.getDate()).slice(-2) + " " + 
+            d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+        col = dateString;
+      }
+      
+      range.setValue(col);
       
     };
     
@@ -265,9 +274,7 @@ function mapAttr(attr, currencies) {
     
   });
   
-  Logger.log(result);
-  
-  return [result];
+  return result;
   
 }
 
@@ -351,7 +358,7 @@ function CMC(currencyPair, attr) {
       result.push(content[mappedAttr[attr]]);
     }
     
-    return result;
+    return [result];
   }
   
 }
@@ -385,4 +392,3 @@ function CMCLIST(limit, convert, start) {
   }
   
 }
-
